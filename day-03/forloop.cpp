@@ -9,9 +9,10 @@ int main()
 int num;
 int sum = 0;
 int average = 0;
- for(int i = 1; i <=5; i++)
+int count;
+ for(int count = 1; count <=5; count++)
  {
-      cout << "Enter the number: ";
+      cout << "Enter the number "<<count<<" : ";
      cin>> num;
      if (num >=1 && num<=50)
      {
@@ -22,6 +23,7 @@ int average = 0;
      {
 
           cout << "invalid number ";
+          count--;
      }
 
  }
